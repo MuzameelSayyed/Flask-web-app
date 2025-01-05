@@ -4,4 +4,4 @@ WORKDIR /Flaskapp
 
 COPY app.py  /Flaskapp/
 
-RUN pip install -r flask
+RUN pip install flask
