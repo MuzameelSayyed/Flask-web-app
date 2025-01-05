@@ -4,4 +4,6 @@ WORKDIR /Flaskapp
 
 COPY app.py  /Flaskapp/
 
+COPY requirements.txt /tmp
+
 RUN pip install -r requirements.txt
